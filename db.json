@@ -2,7 +2,7 @@
   "posts": [
     {
       "id": "1",
-      "title": "json-server-1",
+      "title": "json-server-1213",
       "author": "typicode",
       "content": "json-server-1-content"
     },
@@ -41,7 +41,7 @@
     {
       "id": "8b01",
       "title": "1",
-      "content": "2"
+      "content": "2ㅎㅇ"
     },
     {
       "id": "bb88",
@@ -52,6 +52,16 @@
       "id": "8247",
       "title": "",
       "content": ""
+    },
+    {
+      "id": "7909",
+      "title": "ㅅㄷㄴㅅ",
+      "content": "ㅅㄷㄴㅅ"
+    },
+    {
+      "id": "4258",
+      "title": "ㅎㅇ",
+      "content": "ㅎㅇ"
     }
   ]
 }

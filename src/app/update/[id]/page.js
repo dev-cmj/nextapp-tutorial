@@ -11,7 +11,7 @@ export default function Update() {
     const id = params.id;
 
     useEffect(() => {
-        fetch(`http://localhost:9999/posts/${params.id}`)
+        fetch( process.env.NEXT_PUBLIC_API_URL + `posts/${params.id}`)
             .then(resp => resp.json())
             .then(posts => {
                 setTitle(posts.title);

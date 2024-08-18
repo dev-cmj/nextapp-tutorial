@@ -15,7 +15,7 @@ export default function Create() {
                 body: JSON.stringify({title, content})
             };
 
-            fetch(`http://localhost:9999/posts`, options)
+            fetch(process.env.NEXT_PUBLIC_API_URL + `posts`, options)
             .then(resp => resp.json())
             .then(posts => {
                 const lastId = posts.id;
