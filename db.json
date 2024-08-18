@@ -8,13 +8,13 @@
     },
     {
       "id": "2",
-      "title": "json-server-2",
+      "title": "수정한다",
       "author": "typicode",
-      "content": "json-server-2-content"
+      "content": "json-server-2-content수장"
     },
     {
       "id": "3",
-      "title": "json-server-3",
+      "title": "React",
       "author": "typicode",
       "content": "json-server-3-content"
     },
@@ -44,35 +44,29 @@
       "content": "2"
     },
     {
-      "title": "2",
-      "content": "2",
-      "id": "vxP3hKj"
-    },
-    {
-      "title": "3",
-      "content": "3",
-      "id": "uj4sSDr"
-    },
-    {
       "id": "bb88",
       "title": "4",
       "content": "4"
-    }
-  ],
-  "comments": [
+    },
     {
-      "id": "1",
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "users": [
+      "id": "7a37",
+      "title": "hi",
+      "content": "12345"
+    },
     {
-      "id": "1",
-      "name": "typicode"
+      "id": "2048",
+      "title": "yester",
+      "content": "ye"
+    },
+    {
+      "id": "81ed",
+      "title": "12345",
+      "content": "12345"
+    },
+    {
+      "id": "8247",
+      "title": "",
+      "content": ""
     }
   ]
 }
