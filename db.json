@@ -1,24 +1,67 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "json-server-1",
-      "author": "typicode"
+      "author": "typicode",
+      "content": "json-server-1-content"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "json-server-2",
-      "author": "typicode"
+      "author": "typicode",
+      "content": "json-server-2-content"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "json-server-3",
-      "author": "typicode"
+      "author": "typicode",
+      "content": "json-server-3-content"
+    },
+    {
+      "id": "866e",
+      "title": "1",
+      "content": "2"
+    },
+    {
+      "id": "883a",
+      "title": "1",
+      "content": "2"
+    },
+    {
+      "id": "ba74",
+      "title": "2",
+      "content": "2"
+    },
+    {
+      "id": "b3fe",
+      "title": "1",
+      "content": "2"
+    },
+    {
+      "id": "8b01",
+      "title": "1",
+      "content": "2"
+    },
+    {
+      "title": "2",
+      "content": "2",
+      "id": "vxP3hKj"
+    },
+    {
+      "title": "3",
+      "content": "3",
+      "id": "uj4sSDr"
+    },
+    {
+      "id": "bb88",
+      "title": "4",
+      "content": "4"
     }
   ],
   "comments": [
     {
-      "id": 1,
+      "id": "1",
       "body": "some comment",
       "postId": 1
     }
@@ -28,7 +71,7 @@
   },
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "typicode"
     }
   ]
