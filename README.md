@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Tutorials
 
-## Getting Started
+I learned Next.js by watching the YouTuber '생활코딩'.  
+**Origin:** [YouTube Video](https://youtu.be/9KOaR6QMb9A?si=PE6Bvr5LRV7HsPaF)
 
-First, run the development server:
+Next.js is a full-stack web framework based on React that simplifies the process of building web applications. The lecture provided valuable insights, particularly in understanding how Next.js supports Server Side Rendering (SSR) to enhance search engine optimization (SEO).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Learnings
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Server Side Rendering (SSR)
+- **Improved SEO**: Next.js uses SSR to deliver pre-rendered HTML pages from the server to the client, ensuring that a complete page is available before JavaScript executes.
+- **Better Search Engine Indexing**: This pre-rendering allows search engine crawlers to index pages more effectively, improving the website's visibility in search results.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### CRUD Functionality for Posts
+- The lecture covered the basic CRUD (Create, Read, Update, Delete) operations for posts, which was essential in understanding the framework's capabilities.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Server Components vs. Client Components
+- **Server Components**: Handle data fetching and initial rendering, delivering optimized HTML to the client. This approach boosts SEO and reduces initial load times.
+- **Client Components**: Manage user interactions and real-time data updates, ensuring a dynamic and responsive user experience.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Conclusion
+By applying the knowledge gained from this tutorial, I was able to deepen my understanding of how to effectively separate and utilize server and client components in Next.js, ultimately leading to the creation of more optimized and responsive web applications.
